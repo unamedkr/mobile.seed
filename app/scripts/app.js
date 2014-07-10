@@ -5,6 +5,8 @@ angular.module('mobileApp', [
     'ngResource',
     'ngSanitize',
     'ui.router',
+    'ngTouch',
+    'ngCordova'
   ])
   .config(function ($stateProvider, $urlRouterProvider) {
 
